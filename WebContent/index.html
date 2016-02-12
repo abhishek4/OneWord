@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<script src="react-0.14/react.js"></script>
-		<script src="react-0.14/react-dom.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>		
-		<title>Home</title>
-	</head>
-	<body>
-		<div id="content">One</div>
-		<script type="text/javascript">
-			var HelloWorld = React.createClass({
-    			render: function() {
-        			return <div>Hello, world!</div>;
-    			}
-			});
-			React.render(new HelloWorld(), document.body);
-		</script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+    <script src="react-0.14/react.js"></script>
+    <script src="react-0.14/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="container"></div>
+    
+    <script type="text/babel" src="js/main.js"></script>
+  </body>
 </html>
